@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+                <h1>Voral.<b>Flowers</b></h1>
+            </div>
+            <div class="search">
+                <img src="Vector (2).png" alt="">
+                <input type="search" placeholder="search">
+            </div>
+            <div class="nav">
+                <a href="#">Product</a>
+                <a href="#">Service</a>
+                <a href="#">About Us</a>
+                <a href="#" id="contact">Contact Us</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        <div id="cover" onclick="closeNav()">
+    <div class="search2">
+        <img src="Vector (2).png" alt="">
+        <input type="search" placeholder="search">
+    </div>
+    <div class="body1">
+        <h1>The best <b>Flower</b> store in Africa</h1>
+        <p class="page">The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout.</p>
+        <div class="div">
+            <div class="contact">
+                <a href="#" >Contact Us</a>
+            </div>
+            <div class="watch">
+                <img src="octicon_play-24.png" alt="">
+                <p>Watch Demo</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container1"></div>
+        <div class="image-view">
+        <div class="image1">
+            <img src="Rectangle 120.png" alt="">
+            <img src="Rectangle 122.png" alt="">
+            <img src="Rectangle 124.png" alt="">
+        </div>
+        <div class="image1">
+            <img src="Rectangle 120.png" alt="">
+            <img src="Rectangle 122.png" alt="">
+            <img src="Rectangle 124.png" alt="">
+        </div>
+    </div>
+    <div class="container2"></div>
+
+    </div>
+    </div>
+</body>
+
+<script>
+    const hamburger = document.querySelector('.hamburger')
+        var nav = document.querySelector('.nav')
+    hamburger.addEventListener ('click', ()=> {
+        hamburger.classList.toggle("active");
+        nav.classList.toggle('active')
+    } )  
+
+</script>
+</html>
