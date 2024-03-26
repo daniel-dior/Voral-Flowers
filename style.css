@@ -203,10 +203,11 @@ border-radius: 5px;
         display: none;
     }
     .body1 h1 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .page {
-        font-size: 15px;
+        font-size: 13px;
+        width:350px;
         line-height: 15px;
     }
 }
